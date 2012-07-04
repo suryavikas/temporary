@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="63" started-at="2012-07-04T12:25:03Z" finished-at="2012-07-04T12:25:03Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="63" started-at="2012-07-04T12:25:03Z" finished-at="2012-07-04T12:25:03Z">
+      <class name="com.mckinsey.coding.session.model.BillingTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.mckinsey.coding.session.model.BillingTest@15f66cff]" name="beforeClass" is-config="true" duration-ms="19" started-at="2012-07-04T12:25:03Z" finished-at="2012-07-04T12:25:03Z">
+        </test-method>
+        <test-method status="PASS" signature="generateBill(int, int, com.mckinsey.coding.session.enums.UserTypes, com.mckinsey.coding.session.enums.ProductTypes, double, com.mckinsey.coding.session.enums.ProductTypes, double, double)[pri:0, instance:com.mckinsey.coding.session.model.BillingTest@15f66cff]" name="generateBill" duration-ms="10" started-at="2012-07-04T12:25:03Z" finished-at="2012-07-04T12:25:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2010]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[CUSTOMER]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[GROCERIES]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[OTHERS]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[19.5]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="generateBill(int, int, com.mckinsey.coding.session.enums.UserTypes, com.mckinsey.coding.session.enums.ProductTypes, double, com.mckinsey.coding.session.enums.ProductTypes, double, double)[pri:0, instance:com.mckinsey.coding.session.model.BillingTest@15f66cff]" name="generateBill" duration-ms="1" started-at="2012-07-04T12:25:03Z" finished-at="2012-07-04T12:25:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2011]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[CUSTOMER]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[GROCERIES]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[OTHERS]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[20.0]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="generateBill(int, int, com.mckinsey.coding.session.enums.UserTypes, com.mckinsey.coding.session.enums.ProductTypes, double, com.mckinsey.coding.session.enums.ProductTypes, double, double)[pri:0, instance:com.mckinsey.coding.session.model.BillingTest@15f66cff]" name="generateBill" duration-ms="1" started-at="2012-07-04T12:25:03Z" finished-at="2012-07-04T12:25:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2010]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[CUSTOMER]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[GROCERIES]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[100.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[OTHERS]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[200.0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[280.0]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="generateBill(int, int, com.mckinsey.coding.session.enums.UserTypes, com.mckinsey.coding.session.enums.ProductTypes, double, com.mckinsey.coding.session.enums.ProductTypes, double, double)[pri:0, instance:com.mckinsey.coding.session.model.BillingTest@15f66cff]" name="generateBill" duration-ms="2" started-at="2012-07-04T12:25:03Z" finished-at="2012-07-04T12:25:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2010]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[EMPLOYEE]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[GROCERIES]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[OTHERS]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[17.0]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="generateBill(int, int, com.mckinsey.coding.session.enums.UserTypes, com.mckinsey.coding.session.enums.ProductTypes, double, com.mckinsey.coding.session.enums.ProductTypes, double, double)[pri:0, instance:com.mckinsey.coding.session.model.BillingTest@15f66cff]" name="generateBill" duration-ms="1" started-at="2012-07-04T12:25:03Z" finished-at="2012-07-04T12:25:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2010]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[EMPLOYEE]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[GROCERIES]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[100.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[OTHERS]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[200.0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[230.0]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="generateBill(int, int, com.mckinsey.coding.session.enums.UserTypes, com.mckinsey.coding.session.enums.ProductTypes, double, com.mckinsey.coding.session.enums.ProductTypes, double, double)[pri:0, instance:com.mckinsey.coding.session.model.BillingTest@15f66cff]" name="generateBill" duration-ms="1" started-at="2012-07-04T12:25:03Z" finished-at="2012-07-04T12:25:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2010]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[AFFILIATE]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[GROCERIES]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[OTHERS]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[19.0]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="generateBill(int, int, com.mckinsey.coding.session.enums.UserTypes, com.mckinsey.coding.session.enums.ProductTypes, double, com.mckinsey.coding.session.enums.ProductTypes, double, double)[pri:0, instance:com.mckinsey.coding.session.model.BillingTest@15f66cff]" name="generateBill" duration-ms="2" started-at="2012-07-04T12:25:03Z" finished-at="2012-07-04T12:25:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2010]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[AFFILIATE]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[GROCERIES]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[100.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[OTHERS]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[200.0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[270.0]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.mckinsey.coding.session.model.BillingTest@15f66cff]" name="afterClass" is-config="true" duration-ms="1" started-at="2012-07-04T12:25:03Z" finished-at="2012-07-04T12:25:03Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>
